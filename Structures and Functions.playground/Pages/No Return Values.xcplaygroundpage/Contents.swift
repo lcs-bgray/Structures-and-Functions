@@ -24,14 +24,17 @@ import Foundation
 func greet(person: String) {
     print("Hello, \(person)!")
 }
-greet(person: "human")
+greet(person: "Sera")
 // Prints:
 //
 // Hello, Sara!
 
 // Now greet Sara by invoking the function
-
-
+greet(person: "Ben")
+greet(person: "Braydon")
+greet(person: "Matthew")
+greet(person: "Mr. Gordon")
+greet(person: "Mr. Turner")
 /*:
  As shown in the screenshot above, the code on lines 1 through 3 **define** the function.
  
